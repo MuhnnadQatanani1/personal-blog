@@ -1,0 +1,53 @@
+/* Post styles */
+.post {
+    background: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+}
+
+.post img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.post h2, .post h3 {
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.post p {
+    flex-grow: 1;
+}
+
+.post a {
+    align-self: flex-end;
+    text-align: right;
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+/* Social Icons Styles */
+.social-icons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 40px; /* Adjust size as needed */
+    height: auto;
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.social-icons a:hover img {
+    transform: scale(1.2); /* Increase size on hover */
+}

@@ -1,0 +1,31 @@
+/* Typography styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+/* Text styling */
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+q {
+    quotes: "“" "”" "‘" "’";
+    font-style: italic;
+}

@@ -1,0 +1,6 @@
+/* Reset some basic elements */
+body, h1, h2, h3, p, ul, figure, figcaption {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}

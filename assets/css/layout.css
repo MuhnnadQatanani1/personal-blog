@@ -1,0 +1,99 @@
+/* Header styles */
+header {
+    background: blanchedalmond;
+    color: black;
+    padding: 10px 0;
+    margin: 0 auto;
+    width: 100%;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+/* Flexbox container for blog posts on the blog page */
+.flex-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.flex-container1 .post {
+    flex: 1 1 30%;
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+    background: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+/* Flexbox container for additional blog posts */
+.flex-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.flex-container2 .post {
+    flex: 1 1 48%;
+    max-width: 48%;
+    display: flex;
+    flex-direction: column;
+    background: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+/* Grid container for recent posts on the home page */
+.grid-container1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+footer {
+    background: blanchedalmond;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
